@@ -44,7 +44,7 @@ Agents enforce **least-privilege context partitioning** by exchanging strongly t
 
 - **Web UI:** `uv run streamlit run src/app.py`
 - **Automated QA Suite:** `uv run pytest -v`
-- **Docker Stack:** `docker compose up --build`
+- **Streamlit Community Cloud:** Deploy `src/app.py` from `main` on `share.streamlit.io` with `GOOGLE_API_KEY` and `GEMINI_MODEL` set in App Secrets.
 
 ## 6. AI Audit Log Summary (`ai_prompt_log.md`)
 
