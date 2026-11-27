@@ -1,9 +1,0 @@
-services:
-  squad-app:
-    build: .
-    ports:
-      - "8501:8501"
-    env_file:
-      - .env
-    environment:
-      - PYTHONDONTWRITEBYTECODE=1
